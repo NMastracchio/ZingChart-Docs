@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'ZingChart'
-copyright = u'2015, Nicholas Mastracchio'
+copyright = u'2015, ZingChart'
 author = u'Nicholas Mastracchio'
 
 # The version info for the project you're documenting, acts as replacement for

@@ -1,0 +1,122 @@
+.. glossary::
+   :sorted:
+
+   shape 
+   *string*. 
+   **Default:** "box"
+
+   width 
+   *integer*. 
+   **Default:** 0
+
+   height 
+   *integer*. 
+   **Default:** 0
+
+   position 
+   *string*. 
+   **Default:** ""
+
+   margin-top 
+   *integer*. 
+   **Default:** -1
+
+   margin-right 
+   *integer*. 
+   **Default:** -1
+
+   margin-bottom 
+   *integer*. 
+   **Default:** -1
+
+   margin-left 
+   *integer*. 
+   **Default:** -1
+
+   border-radius-top-left 
+   *integer*. 
+   **Default:** 0
+
+   border-radius-top-right 
+   *integer*. 
+   **Default:** 0
+
+   border-radius-bottom-right 
+   *integer*. 
+   **Default:** 0
+
+   border-radius-bottom-left 
+   *integer*. 
+   **Default:** 0
+
+   center-ref 
+   *boolean*. 
+   **Default:** FALSE
+
+   callout 
+   *boolean*. 
+   **Default:** FALSE
+
+   callout-position 
+   *string*. 
+   **Default:** "bottom"
+
+   callout-offset 
+   *integer*. 
+   **Default:** 0
+
+   callout-extension 
+   *integer*. 
+   **Default:** 0
+
+   callout-width 
+   *integer*. 
+   **Default:** 8
+
+   callout-height 
+   *integer*. 
+   **Default:** 8
+
+   callout-ratio 
+   *array*. 
+   **Default:** [1,1]
+
+   callout-hook 
+   *array*. 
+   **Default:** null
+
+   callout-tip 
+   *object*. 
+   **Default:** null
+
+   ignore-locate 
+   *boolean*. 
+   **Default:** FALSE
+
+   box-correction 
+   *boolean*. 
+   **Default:** TRUE
+
+   border-top 
+   *string*. 
+   **Default:** ""
+
+   border-right 
+   *string*. 
+   **Default:** ""
+
+   border-bottom 
+   *string*. 
+   **Default:** ""
+
+   border-left 
+   *string*. 
+   **Default:** ""
+
+   anchor 
+   *string*. 
+   **Default:** "tl"
+
+   rect-shortcut 
+   *boolean*. 
+   **Default:** TRUE

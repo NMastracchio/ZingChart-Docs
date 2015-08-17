@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>&lt;no title&gt; &mdash; ZingChart 2.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ZingChart 2.1 documentation" href="index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <dl class="glossary docutils">
+<dt id="term-bold">bold</dt>
+<dd><p class="first"><em>Boolean.</em> Sets whether or not the text will be bolded.</p>
+<p class="last"><strong>Default:</strong> false</p>
+</dd>
+<dt id="term-clip-text">clip-text</dt>
+<dd><p class="first"><em>Boolean.</em> Sets whether or not the text will clip when text extends beyond the width of the containing object.</p>
+<p class="last"><strong>Default:</strong> false</p>
+</dd>
+<dt id="term-color">color</dt>
+<dd><p class="first"><em>String.</em> Sets the color of the font.</p>
+<p class="last"><strong>Default:</strong> &#8220;#000&#8221;</p>
+</dd>
+<dt id="term-font-family">font-family</dt>
+<dd><p class="first"><em>String.</em> Sets the font family.</p>
+<p class="last"><strong>Default:</strong> &#8220;Lucida Sans Unicode,Lucida Grande,Verdana,Arial,sans-serif&#8221;</p>
+</dd>
+<dt id="term-font-size">font-size</dt>
+<dd><p class="first"><em>Integer.</em> Sets the size of the font in pixels.</p>
+<p class="last"><strong>Default:</strong> 11</p>
+</dd>
+<dt id="term-italic">italic</dt>
+<dd><p class="first"><em>Boolean.</em> Sets whether or not the text will be italicized.</p>
+<p class="last"><strong>Default:</strong> false</p>
+</dd>
+<dt id="term-line-height">line-height</dt>
+<dd><p class="first"><em>Integer.</em> Sets the line-height.</p>
+<p class="last"><strong>Default:</strong> -1</p>
+</dd>
+<dt id="term-max-chars">max-chars</dt>
+<dd><p class="first"><em>Integer.</em> Sets the maximum number of characters to display, dependent on the width of the containing object.</p>
+<p class="last"><strong>Default:</strong> 0</p>
+</dd>
+<dt id="term-max-width">max-width</dt>
+<dd><p class="first"><em>Integer.</em> Sets the maximum width of the element.</p>
+<p class="last"><strong>Default:</strong> ZC.MAX</p>
+</dd>
+<dt id="term-padding-bottom">padding-bottom</dt>
+<dd><p class="first"><em>Integer.</em> Sets the bottom padding of the object in number of pixels.</p>
+<p class="last"><strong>Default:</strong> 2</p>
+</dd>
+<dt id="term-padding-left">padding-left</dt>
+<dd><p class="first"><em>Integer.</em> Sets the left padding of the object in number of pixels.</p>
+<p class="last"><strong>Default:</strong> 2</p>
+</dd>
+<dt id="term-padding-right">padding-right</dt>
+<dd><p class="first"><em>Integer.</em> Sets the right padding of the object in number of pixels.</p>
+<p class="last"><strong>Default:</strong> 2</p>
+</dd>
+<dt id="term-padding-top">padding-top</dt>
+<dd><p class="first"><em>Integer.</em> Sets the top padding of the object in number of pixels.</p>
+<p class="last"><strong>Default:</strong> 2</p>
+</dd>
+<dt id="term-rtl">rtl</dt>
+<dd><p class="first"><em>Boolean.</em> Sets whether or not the text is written from right-to-left.</p>
+<p class="last"><strong>Default:</strong> false</p>
+</dd>
+<dt id="term-text">text</dt>
+<dd><p class="first"><em>String.</em> Sets the displayed text of the object.</p>
+<p class="last"><strong>Default:</strong> null</p>
+</dd>
+<dt id="term-text-align">text-align</dt>
+<dd><p class="first"><em>String.</em> Sets the horizontal alignment of the text.</p>
+<p><strong>Accepted values:</strong> &#8220;left&#8221; | &#8220;center&#8221; | &#8220;right&#8221;</p>
+<p class="last"><strong>Default:</strong> &#8220;center&#8221;</p>
+</dd>
+<dt id="term-text-height">text-height</dt>
+<dd><p class="first"><em>Integer.</em> Sets the text-height.</p>
+<p class="last"><strong>Default:</strong> 0</p>
+</dd>
+<dt id="term-text-width">text-width</dt>
+<dd><p class="first"><em>Integer.</em> Sets the width of the text.</p>
+<p class="last"><strong>Default:</strong> 0</p>
+</dd>
+<dt id="term-underline">underline</dt>
+<dd><p class="first"><em>Boolean.</em> Sets whether or not the text will be underlined.</p>
+<p class="last"><strong>Default:</strong> false</p>
+</dd>
+<dt id="term-vertical-align">vertical-align</dt>
+<dd><p class="first"><em>String.</em> Sets the vertical alignment of the text.</p>
+<p><strong>Accepted values:</strong> &#8220;top&#8221; | &#8220;middle&#8221; | &#8220;bottom&#8221;</p>
+<p class="last"><strong>Default:</strong> &#8220;middle&#8221;</p>
+</dd>
+<dt id="term-wrap-text">wrap-text</dt>
+<dd><p class="first"><em>Boolean.</em> Sets whether or not the text will wrap when text extends beyond the width of the containing object.</p>
+<p class="last"><strong>Default:</strong> false</p>
+</dd>
+</dl>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/ZCTextBox.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2015, ZingChart.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.6</a>
+      
+      |
+      <a href="_sources/ZCTextBox.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
