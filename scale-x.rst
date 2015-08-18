@@ -6,9 +6,6 @@ Scale-X
 Elements
 ========
 
-:doc:`center <graph/scale-x/center>`
-  *Object.*
-
 :doc:`guide <graph/scale-x/guide>`
   *Object.* Configures the guide element.
 
@@ -27,9 +24,6 @@ Elements
 :doc:`ref-line <graph/scale-x/ref-line>`
   *Object.* Configures the reference line.
 
-:doc:`ring <graph/scale-x/ring>`
-  *Object.* Not sure if this is supposed to be here. :/
-
 :doc:`tick <graph/scale-x/tick>`
   *Object.* Configure the tick elements.
 
@@ -46,3 +40,9 @@ Attributes
 .. include:: /ZCScaleK.rst
 
 .. include:: /ZCScale.rst
+
+.. include:: /ZCBox.rst
+
+.. include:: /ZCShape.rst
+
+.. include:: /ZCStyle.rst

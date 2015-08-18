@@ -11,7 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   scale-x
+   graphset
 
 Indices and tables
 ==================

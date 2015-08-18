@@ -1,0 +1,356 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Graphset &mdash; ZingChart 2.1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ZingChart 2.1 documentation" href="index.html"/>
+        <link rel="prev" title="Welcome to ZingChart’s documentation!" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="index.html" class="icon icon-home"> ZingChart
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">Graphset</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#d-aspect">3d-aspect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#arrows">arrows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bar">bar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#crosshair-x">crosshair-x</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#crosshair-y">crosshair-y</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#csv">csv</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#curtain">curtain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#images">images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#labels">labels</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#legend">legend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plot">plot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plotarea">plotarea</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#preview">preview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#refresh">refresh</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scale-r">scale-r</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scale-x"><code class="docutils literal"><span class="pre">scale-x</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scale-x-n">scale-x-n</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scale-y"><code class="docutils literal"><span class="pre">scale-y</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scale-y-n">scale-y-n</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scroll-x">scroll-x</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scroll-y">scroll-y</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#series">series</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#shapes">shapes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#source">source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#subtitle">subtitle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#title">title</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tooltip">tooltip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#widgets">widgets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#zoom">zoom</a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">ZingChart</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Graphset</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/graphset.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="graphset">
+<h1>Graphset<a class="headerlink" href="#graphset" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="d-aspect">
+<h2>3d-aspect<a class="headerlink" href="#d-aspect" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="arrows">
+<h2>arrows<a class="headerlink" href="#arrows" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Array&lt;Object&gt;.</em></div></blockquote>
+</div>
+<div class="section" id="bar">
+<h2>bar<a class="headerlink" href="#bar" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="crosshair-x">
+<h2>crosshair-x<a class="headerlink" href="#crosshair-x" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="crosshair-y">
+<h2>crosshair-y<a class="headerlink" href="#crosshair-y" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="csv">
+<h2>csv<a class="headerlink" href="#csv" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="curtain">
+<h2>curtain<a class="headerlink" href="#curtain" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="images">
+<h2>images<a class="headerlink" href="#images" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Array&lt;Object&gt;.</em></div></blockquote>
+</div>
+<div class="section" id="labels">
+<h2>labels<a class="headerlink" href="#labels" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Array&lt;Object&gt;</em></div></blockquote>
+</div>
+<div class="section" id="legend">
+<h2>legend<a class="headerlink" href="#legend" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="plot">
+<h2>plot<a class="headerlink" href="#plot" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="plotarea">
+<h2>plotarea<a class="headerlink" href="#plotarea" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="preview">
+<h2>preview<a class="headerlink" href="#preview" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="refresh">
+<h2>refresh<a class="headerlink" href="#refresh" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="scale-r">
+<h2>scale-r<a class="headerlink" href="#scale-r" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="scale-x">
+<h2><a class="reference internal" href="scale-x.html"><em>scale-x</em></a><a class="headerlink" href="#scale-x" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em> Yo, It&#8217;s the scale-x object, duh.</div></blockquote>
+</div>
+<div class="section" id="scale-x-n">
+<h2>scale-x-n<a class="headerlink" href="#scale-x-n" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="scale-y">
+<h2><a class="reference internal" href="scale-y.html"><em>scale-y</em></a><a class="headerlink" href="#scale-y" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em> Dis one &#8216;ere is the scale-y object, ya dig?</div></blockquote>
+</div>
+<div class="section" id="scale-y-n">
+<h2>scale-y-n<a class="headerlink" href="#scale-y-n" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="scroll-x">
+<h2>scroll-x<a class="headerlink" href="#scroll-x" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="scroll-y">
+<h2>scroll-y<a class="headerlink" href="#scroll-y" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="series">
+<h2>series<a class="headerlink" href="#series" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Array&lt;Object&gt;.</em></div></blockquote>
+</div>
+<div class="section" id="shapes">
+<h2>shapes<a class="headerlink" href="#shapes" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Array&lt;Object&gt;.</em></div></blockquote>
+</div>
+<div class="section" id="source">
+<h2>source<a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="subtitle">
+<h2>subtitle<a class="headerlink" href="#subtitle" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="title">
+<h2>title<a class="headerlink" href="#title" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="tooltip">
+<h2>tooltip<a class="headerlink" href="#tooltip" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+<div class="section" id="widgets">
+<h2>widgets<a class="headerlink" href="#widgets" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Array&lt;Object&gt;.</em></div></blockquote>
+</div>
+<div class="section" id="zoom">
+<h2>zoom<a class="headerlink" href="#zoom" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><em>Object.</em></div></blockquote>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Welcome to ZingChart’s documentation!" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, ZingChart.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'2.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
