@@ -7,6 +7,13 @@ function toggleCurrent (elem) {
 }
 
 $(document).ready(function() {
+
+    var terms = document.getElementsByTagName("dt");
+    for (var n = 0; n < terms.length; n++){
+      terms[n].innerHTML += "<button style='float:right;'>Demo</button>";
+    }
+    console.log(terms);
+
     // Shift nav in mobile when clicking the menu.
     $(document).on('click', "[data-toggle='wy-nav-top']", function() {
         $("[data-toggle='wy-nav-shift']").toggleClass("shift");

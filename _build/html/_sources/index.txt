@@ -9,9 +9,16 @@ Welcome to ZingChart's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
+   :glob:
 
+   globals
+   gui
+   history
+   refresh
    graphset
+   
+
 
 Indices and tables
 ==================
